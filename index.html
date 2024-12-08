@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>나의 포트폴리오</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>닫기</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>2023810087 황재연</h1>
+            <h2>소프트웨어&서비스컴퓨팅 전공</h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">프로젝트에 대해</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        이번 과제를 통해 웹프로그래밍 시간에 배웠던 웹페이지 생성과, netlify를 통해 생성한
+                        url을 보기 쉽도록 포트폴리오로 만들어 향후 나의 진로에 도움이 되도록 할 것이다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/airpollution.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Air Pollution Inquiry Mashup</h3>
+                        <p>
+                            공기 오염 실시간 정보를 API로 받아와 한눈에 보기 쉽게 웹사이트로 표현했던 프로젝트이다. 원하는 위치를 선택하면 해당위치로 지도가 이동하며 그 자리에 마커가 찍힌다. 그 뒤 API에서 받아온 데이터를 표형식으로 출력하여 측정날짜와 측정소, 통합지수, 미세먼지, 오존, 일산화 탄소를 출력해준다.
+                        </p>
+                        <a href="https://23-5problem.netlify.app/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/library.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Kakao Map을 이용한 서울시 공공도서관 검색 Mashup</h3>
+                        <p>
+                            카카오에서 무료로 제공해주는 Map API와 서울시 공공 데이터 API를 사용하여 공공도서관을 검색하는 웹페이지를 만들었다. 원하는 지역을 검색하면 해당 지역으로 지도가 이동하며 커다란 원이 찍힌다. 이 반경내의 도서관들을 마커로 표시해주며, 마커를 눌러 도서관 정보를 확인할 수도 있고, 지도밑에서도 상세하게 표시되는 것을 확인 할 수 있다.
+                        </p>
+                        <a href=" https://22-3problem.netlify.app/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/culture.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>서울시 문화행사 알리미</h3>
+                        <p>
+                           서울 특별시의 실시간 행사정보 API를 불러와 공연분야별로 찾아볼 수 있는 웹사이트를 만들었다. 원하는 공연 분야를 선택하고 검색 버튼을 누르면 해당 분야의 공연들이 나열되며, 사진, 제목, 공연기간, 공연장, 홈페이지 url이 표시된다. 또한 PWA를 사용하여 앱 형식으로 웹사이트를 저장할 수도 있다.
+                        </p>
+                        <a href="https://24-2problem.netlify.app/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>Go</li>
+            <li>Node.js</li>
+            <li>AngularJs</li>
+            <li>React</li>
+            <li>Elixir</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Ruby on Rails</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>Go</li>
+            <li>Node.js</li>
+            <li>AngularJs</li>
+            <li>React</li>
+            <li>Elixir</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Ruby on Rails</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> 2023810087 황재연
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
